@@ -684,3 +684,28 @@ a {
 .footer .social-link:hover {
     background: #ebebeb;
 }
+
+.totop {
+    position: fixed;
+    bottom: 55px;
+    right: 30px;
+    background: #ccc;
+    font-size: 40px;
+    color: #000;
+    padding: 10px;
+    border-radius: 999px;
+    text-align: center;
+}
+
+.icon-totop{
+    width: 40px;
+}
+
+.totop:hover{
+    background: #f15454;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth; /* tạo hiệu ứng lên đầu trang mượt = css */
+}
