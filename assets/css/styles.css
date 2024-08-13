@@ -706,6 +706,6 @@ a {
     color: #fff;
 }
 
-html {
+html, body {
     scroll-behavior: smooth; /* tạo hiệu ứng lên đầu trang mượt = css */
 }
